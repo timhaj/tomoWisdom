@@ -29,10 +29,24 @@ vegova = [
     ("Ja a je to dobr? Ja verjetn je dobr", "Miki"),
     ("Fantje zdej pa se umirite da premislimo, kaj bomo dali v GROUP BY stavek", "Matjaž Majnik"),
     ("...pridemo do Grosuplja, to je tm k so se turki mal predolg ustavl", "Marko Kastelic"),
-
+    ("*papagaj noises* I'm a parrot!", "Mojca Fink"),
 ]
 
 fri = [
     ("Situacija ni rožnata", "Gašper Fijavž"),
     ("To metodo so uporabljali že v Vojvodini", "Aleksandar Jurišić"),
+    ("Moj pes je tok pametn, da je zjutri vedu da bova zamudla, zato sva šla z avtom", "Aleksandar Jurišić"),
+    ("DADI MIR", "Aleksandar Jurišić"),
+    ("Moja žena je tok nesrečna", "Janez Demšar"),
+    ("Dejte tole med odmorom prebavit", "Gašper Fijavž"),
+    ("Če se nekaj obnaša kot raca, gaga kot raca, potem res je raca", "Gašer Fijavž"),
+    ("Zakaj je treba znt štet", "Gašper Fijavž"),
+    ("B kar nekako izgine", "Gašer Fijavž"),
+    ("Prehiter flomaster je", "Gašper Fijavž"),
+    ("Ta tavtologija je klobasa", "Gašper Fijavž"),
+    ("Spodaj podpisani Bubble Sort, vpisna številka 923456781, prosim za odobritev statusa algoritma s posebnimi potrebami", "Janez Demšar"),
+    ("Da o moških, ki v pajkicah tekajo okrog fakultete (ravno danes se je s FRI -- sredi belega dne! vpričo mimoidočih študentov! -- spet priklatil en tak nespodobnež in dva somišljenika) ne izgubljamo prepotrebnih grdih besed.", "Janez Demšar"),
+    ("Na tole sem napisal in pobrisal že štiri odgovore. Prvi je bil v caps locku. Drugi je bil sarkastičen. Tretji brezzvezen. Četrti predolg. Vse, kar sem naredil za zdaj, je, da sem kolega Nejca suspendiral iz Učilnice. Ali le iz tega predmeta ali iz vseh, ne vem. Glede na to, da je ne zna uporabljati, upam, da iz vseh, saj sem s tem morda naredil uslugo še kakemu drugemu profesorju.", "Janez Demšar"),
+    ("Kje je miš", "Peter Peer"),
+    
 ]
