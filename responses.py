@@ -1,5 +1,5 @@
 from random import choice
-from citati import vegova as d
+from citati import vegova, fri
 
 def handle_response(message) -> str:
     p_message = message.lower()
@@ -11,8 +11,12 @@ def handle_response(message) -> str:
         return f'```fix\nAne\n ~ Dušan Sitar ~```'    
 
     if p_message == '/vegova':
-        izbran = choice(d)
+        izbran = choice(vegova)
         return f'```fix\n{izbran[0]}\n ~ {izbran[1]} ~```'
+
+    if p_message == '/fri':
+        izbran = choice(fri)
+        return f'```fix\n{izbran[0]}\n ~ {izbran[1]} ~```'        
 
     return 'Uporab: /vegova'
 

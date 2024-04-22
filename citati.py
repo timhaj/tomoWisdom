@@ -31,3 +31,8 @@ vegova = [
     ("...pridemo do Grosuplja, to je tm k so se turki mal predolg ustavl", "Marko Kastelic"),
 
 ]
+
+fri = [
+    ("Situacija ni rožnata", "Gašper Fijavž"),
+    ("To metodo so uporabljali že v Vojvodini", "Aleksandar Jurišić"),
+]
