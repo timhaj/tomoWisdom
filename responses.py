@@ -10,10 +10,10 @@ def handle_response(message) -> str:
     if p_message == 'ane':
         return f'```fix\nAne\n ~ Dušan Sitar ~```'    
 
-    if p_message == '/wisdom':
+    if p_message == '/vegova':
         izbran = choice(d)
         return f'```fix\n{izbran[0]}\n ~ {izbran[1]} ~```'
 
-    return 'Uporab: /wisdom'
+    return 'Uporab: /vegova'
 
 
