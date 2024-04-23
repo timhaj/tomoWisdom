@@ -37,9 +37,18 @@ def run_discord_bot():
         print(f"{username} je reku: '{user_message}' ({channel})")
 
         if user_message == '/sexy':
-            random_file=random.choice(os.listdir("./src"))
-            path = './src/' + random_file
-            await message.author.send(file=discord.File(path))
+            random_file=random.choice(os.listdir("./src/sexy"))
+            path = './src/sexy/' + random_file
+            await message.channel.send(file=discord.File(path))
+        elif user_message == '?/sexy':
+            random_file=random.choice(os.listdir("./src/sexy"))
+            path = './src/sexy/' + random_file
+            await message.author.send(file=discord.File(path))            
+
+        if user_message in ['gorila', 'mog', 'Gorila', 'Mog']:
+            await message.channel.send(file=discord.File("./src/gorila/gorila.gif"))  
+        elif user_message in ['?gorila', '?mog', '?Gorila', '?Mog']:
+            await message.author.send(file=discord.File("./src/gorila/gorila.gif"))                       
 
         if user_message[0] == '?':
             user_message = user_message[1:]
