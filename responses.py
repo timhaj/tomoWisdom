@@ -5,7 +5,7 @@ def handle_response(message) -> str:
     p_message = message.lower()
 
     if p_message == '/help':
-        return f'```fix\n/vegova``` -> vrne random vegova quote\n```fix\n/fri``` -> vrne random fri quote'
+        return f'```fix\n/vegova``` -> vrne random vegova quote\n```fix\n/fri``` -> vrne random fri quote\n```fix\n/sexy``` -> vrne random sexy fotko\n```fix\nIn par easter egg-ov če rečeš točno določeno besedo```'
 
     if p_message == 'ok':
         return f'```fix\nNe ni ok\n ~ Katja Lasbaher ~```'
