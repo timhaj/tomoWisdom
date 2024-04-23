@@ -1,6 +1,7 @@
 import discord
 import responses
 import os
+import random
 from dotenv import load_dotenv
 
 async def send_message(message, user_message, is_private):
@@ -34,6 +35,11 @@ def run_discord_bot():
         channel = str(message.channel)
 
         print(f"{username} je reku: '{user_message}' ({channel})")
+
+        if user_message == '/sexy':
+            random_file=random.choice(os.listdir("./src"))
+            path = './src/' + random_file
+            await message.author.send(file=discord.File(path))
 
         if user_message[0] == '?':
             user_message = user_message[1:]
