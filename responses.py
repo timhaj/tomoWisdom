@@ -21,6 +21,6 @@ def handle_response(message) -> str:
         izbran = choice(fri)
         return f'```fix\n{izbran[0]}\n ~ {izbran[1]} ~```'        
 
-    return 'Uporab tole poba: /help'
+    return ""
 
 
