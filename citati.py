@@ -48,5 +48,15 @@ fri = [
     ("Da o moških, ki v pajkicah tekajo okrog fakultete (ravno danes se je s FRI -- sredi belega dne! vpričo mimoidočih študentov! -- spet priklatil en tak nespodobnež in dva somišljenika) ne izgubljamo prepotrebnih grdih besed.", "Janez Demšar"),
     ("Na tole sem napisal in pobrisal že štiri odgovore. Prvi je bil v caps locku. Drugi je bil sarkastičen. Tretji brezzvezen. Četrti predolg. Vse, kar sem naredil za zdaj, je, da sem kolega Nejca suspendiral iz Učilnice. Ali le iz tega predmeta ali iz vseh, ne vem. Glede na to, da je ne zna uporabljati, upam, da iz vseh, saj sem s tem morda naredil uslugo še kakemu drugemu profesorju.", "Janez Demšar"),
     ("Kje je miš", "Peter Peer"),
-    
+    ("Klele imamo kr velke kumare v glavnem", "Aleksandar Jurišić"),
+    ("Dadi sedi, dej tačko, rollover", "Aleksandar Jurišić"),
+    ("Porazdelitev KiKi bombona", "Aleksandar Jurišić"),
+    ("KiKi bombon ni sam za pojest, treba ga je ogret v žepu in ga oblikovat potem v kocko, vzet flumaster pa označit vsako stran od 1-6", "Aleksandar Jurišić"),
+    ("En se pokrajša, en pač ne, tak pač je, takšno je življenje", "Aleksandar Jurišić"),
+    ("Zdej pr plačah k ni komunizem/kapitalizem, se je treba pogajat, en dobi več, eden manj, ni fer, ampak večinoma gre po zaslugah", "Aleksandar Jurišić"),
+    ("V KOČO!", "Aleksandar Jurišić"),
+    ("Je nič ampak ni nič", "Aleksandar Jurišić"),
+    ("Hčerka od enga prijatla, je en dan lizala sladoled, pa ni gledla pa ji je sladoled padu na tla, pa je rekla da ji je padu na tla, pa reče fotr, ja js sm ga že plaču, kaj naj ti zdej js, pa reče hčerka 'not fair, not fair, not fair'. Življenje ni fer, ni fer, ni fer... ", "Aleksandar Jurišić"),
+    ("Prejšnji teden ne, ker smo se filal z jajčki", "Peter Peer"),
+    ("Bejži v vrsto!", "Peter Peer"),
 ]
