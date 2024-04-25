@@ -43,6 +43,24 @@ def run_discord_bot():
         elif user_message == '?/sexy':
             random_file=random.choice(os.listdir("./src/sexy"))
             path = './src/sexy/' + random_file
+            await message.author.send(file=discord.File(path))  
+
+        if user_message == '/zlebnik':
+            random_file=random.choice(os.listdir("./src/zlebnik"))
+            path = './src/zlebnik/' + random_file
+            await message.channel.send(file=discord.File(path))
+        elif user_message == '?/zlebnik':
+            random_file=random.choice(os.listdir("./src/zlebnik"))
+            path = './src/zlebnik/' + random_file
+            await message.author.send(file=discord.File(path))  
+
+        if user_message == '/tomo':
+            random_file=random.choice(os.listdir("./src/tomo"))
+            path = './src/tomo/' + random_file
+            await message.channel.send(file=discord.File(path))
+        elif user_message == '?/tomo':
+            random_file=random.choice(os.listdir("./src/tomo"))
+            path = './src/tomo/' + random_file
             await message.author.send(file=discord.File(path))            
 
         if user_message in ['gorila', 'mog', 'Gorila', 'Mog']:

@@ -10,6 +10,9 @@ def handle_response(message) -> str:
     if p_message == 'ok':
         return f'```fix\nNe ni ok\n ~ Katja Lasbaher ~```'
 
+    if p_message in ['dan', 'dober dan']:
+        return f'```fix\nDOOOBEEER DAAAN\n ~ Špela Pretnar ~```'
+
     if p_message == 'ane':
         return f'```fix\nAne\n ~ Dušan Sitar ~```'    
 
