@@ -1,8 +1,8 @@
 # tomoWisdom
-** the best discord bot ever **
+**the best discord bot ever**
 
 If you want to tweak the bot to your likings, fork the repo & before running it use:
-`pip install discord`
+`pip install discord` and 
 `pip install python-dotenv`
 
 and run it using
