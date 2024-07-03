@@ -46,6 +46,20 @@ def run_discord_bot():
 
         print(f"{username} je reku: '{user_message}' ({channel})")
 
+        if user_message == '/help':
+            embedded = discord.Embed(title='Help menu', color=0xff00ff, timestamp=datetime.datetime.now(datetime.UTC))
+            embedded.add_field(name='/vegova', inline=False, value='vrne random vegova quote')
+            embedded.add_field(name='/fri', inline=False, value='vrne random fri quote')
+            embedded.add_field(name='/sexy', inline=False, value='vrne random sexy fotko')
+            embedded.add_field(name='/tomo', inline=False, value='vrne random tomo slikco')
+            embedded.add_field(name='/zlebnik', inline=False, value='vrne random zlebnik slikco')
+            embedded.add_field(name='/stats [ticker/name]', inline=False, value='če vpišeš ticker oz. ime kriptovalute, vrne podatke o njej (rank, supply, max supply, mcap, price,... Kriptovalute pod 40mil mcap zelo težko najde. ')
+            embedded.add_field(name='/markets [ticker/name]', inline=False, value='Vrne vse tiste exchange-e, kjer se ta kriptovaluta pojavlja in pod katerim inštrumentom. ')
+            embedded.add_field(name='/assets', inline=False, value='Vrne cel katalog kriptovalut, s katerim preko gumbov se pomikaš najprej/nazaj. ')
+            embedded.add_field(name='In par easter egg-ov če rečeš točno določeno besedo', inline=False, value='')
+            embedded.set_footer(text=f'Replying to {message.author}', icon_url=message.author.avatar.url)
+            await message.channel.send(embed=embedded)
+
         if user_message == '/assets':
             url = "https://api.coincap.io/v2/assets"
             data = requests.get(url).json()
